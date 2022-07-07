@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://lotek.wildfirelaboratories.com/bom/">
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Bom - LOTEK-DOCS-LSN</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/darcula.min.css">
+        <link href="../extra.css" rel="stylesheet">
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">LOTEK-DOCS-LSN</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href=".." class="nav-link">USER GUIDE</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="https://wildfirelaboratories.com" class="nav-link">WILDFIRE SITE</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#support" class="nav-link">SUPPORT</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#bom" class="nav-link">B.O.M.</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#build-notes" class="nav-link">BUILD NOTES</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<p><font size="7" face="Courier Prime"><i>WL-9411 - "LUCY SAYS NO"</i></font><br>
+<font size="5">MATERIALS GUIDE</font></p>
+<p><br>
+<img src="lsn-mkdocs3.png" height="80%" width="80%">
+<br><br><br><br></p>
+<h1 id="support">SUPPORT</h1>
+<p>If any issues arise <a href="mailto:wildfirelaboratories@gmail.com"><strong>please click here to contact us via email first</strong></a>. We'll walk you through any problems you may be having (with the module). 
+<br><br><br><br></p>
+<h1 id="bom">B.O.M.</h1>
+<p>for <strong>v1.4</strong> boards 
+<br></p>
+<table>
+<thead>
+<tr>
+<th><strong>PART</strong></th>
+<th><strong>VALUE</strong></th>
+<th><strong>QTY</strong></th>
+<th><strong>LINK</strong></th>
+<th><strong>NOTES</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>D1/D2</td>
+<td>1N4004</td>
+<td>2</td>
+<td><a href="https://www.taydaelectronics.com/1n4004-diode-1a-400v.html">here</a></td>
+<td></td>
+</tr>
+<tr>
+<td>U5</td>
+<td>TL074CDT</td>
+<td>1</td>
+<td></td>
+<td>These come pre-soldered if you ordered a PCB.</td>
+</tr>
+<tr>
+<td>R3, R10, R11</td>
+<td>100k</td>
+<td>3</td>
+<td><a href="https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/test-group-2.html">quick-order page for all resistors</a></td>
+<td></td>
+</tr>
+<tr>
+<td>R1, R2, R4, R5, R6, R8, R9</td>
+<td>1k</td>
+<td>7</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R7</td>
+<td>220R (220ohm)</td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C1, C2, C3</td>
+<td>100nF (0.1uF)</td>
+<td>3</td>
+<td><a href="https://www.taydaelectronics.com/capacitors/monolithic-ceramic-capacitor/0-1-uf-100v-multilayer-monolithic-ceramic-capacitor-multicomp.html">here</a></td>
+<td></td>
+</tr>
+<tr>
+<td>C3</td>
+<td>22pF</td>
+<td>1</td>
+<td><a href="https://www.taydaelectronics.com/22pf-50v-multilayer-monolithic-ceramic-capacitor.html">here</a></td>
+<td></td>
+</tr>
+<tr>
+<td>All Jacks</td>
+<td>3.5mm PCB Mount Jacks</td>
+<td>4</td>
+<td><a href="https://www.taydaelectronics.com/hardware/3-5mm-plugs-jacks/pj-3001f-3-5-mm-mono-phone-jack.html">here</a></td>
+<td>"Thonkiconn"</td>
+</tr>
+<tr>
+<td>VR1</td>
+<td>10kB PCB Mount Pot, 9mm</td>
+<td>1</td>
+<td><a href="https://www.taydaelectronics.com/10k-ohm-linear-taper-potentiometer-round-shaft-pcb-9mm.html">here</a></td>
+<td>"Alpha"</td>
+</tr>
+<tr>
+<td>VR2</td>
+<td>50kB PCB Mount Trimpot</td>
+<td>1</td>
+<td><a href="https://www.taydaelectronics.com/b50k-ohm-linear-taper-potentiometer-round-knurled-plastic-shaft-pcb-9mm.htmlhttps://www.taydaelectronics.com/b25k-ohm-linear-taper-potentiometer-round-knurled-plastic-shaft-pcb-9mm.html">here</a></td>
+<td>Plastic shaft trimpot.</td>
+</tr>
+<tr>
+<td>Knob</td>
+<td>6.35mm Knob</td>
+<td>1</td>
+<td><a href="https://www.taydaelectronics.com/kn1250-knob-black.html">the ones that come w/ prebuilt LSNs are here</a></td>
+<td>But really any similar knob will work, be creative!</td>
+</tr>
+<tr>
+<td></td>
+<td>Pin Headers</td>
+<td>1</td>
+<td><a href="https://www.taydaelectronics.com/40-pin-2-54-mm-single-row-pin-header-strip.html">here</a></td>
+<td>2 strips of 5</td>
+</tr>
+<tr>
+<td>LDR1</td>
+<td>Vactrol</td>
+<td>1</td>
+<td><a href="[https://www.taydaelectronics.com/resistors/photoresistors/photo-conductive-cell-resistor-ldr-540nm-radial.html">5528 LDR</a>, 5mm RED LED, 6-7mm heatshrink</td>
+<td><a href="https://www.instructables.com/How-to-Make-a-Optocoupler-Vactrol/">Vactrol Guide Here</a></td>
+</tr>
+</tbody>
+</table>
+<p><br><br><br></p>
+<h1 id="build-notes">BUILD NOTES</h1>
+<p><br></p>
+<ul>
+<li>
+<p><strong>Before powering on for the first time, check for
+shorts between the GND, +5, and +12 test points.</strong></p>
+</li>
+<li>
+<p>Values for all parts will be on the board.</p>
+</li>
+<li>
+<p>The parts marked OUT, SEND, RETURN, and CV are all the Mono 3.5
+Jacks – they are marked as such for easy troubleshooting.</p>
+</li>
+<li>
+<p>On v1.0 – 1.1 boards, the screenprinted footprint is on the wrong
+side (it should be soldered on the same side as the power header and
+other components.)</p>
+</li>
+<li>
+<p>On some earlier board revisions, the footprint for the 78L05 may
+have solder pads that are very close together – after assembly, use a
+multi-meter to test for shorts between the three legs!</p>
+</li>
+</ul>
+<p><br><br><br></p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
